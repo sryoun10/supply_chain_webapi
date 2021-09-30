@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/7ae0c3e5-885f-4bf8-af8c-efdd368a5bed/resourceGroups/appsvc_linux_centralus_premium/providers/Microsoft.Web/sites/connect-python-azure",
+    "appService.deploySubpath": "."
+}
