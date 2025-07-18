@@ -12,3 +12,10 @@ supply_chain_webapi/
 ├── index.html
 └── README.md
 ```
+
+## Future Enhancements
+- Refactor country data into a dictionary or external JSON file
+- Add query parameters (e.g. /route?to=PAN)
+- Include error handling for invalid codes
+- Add a simple frontend or Swagger UI for visualization
+- Deploy to Render or Railway for live demo
