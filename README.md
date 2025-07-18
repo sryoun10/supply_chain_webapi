@@ -1,4 +1,4 @@
-# CHR_WebAPI
+# supply_chain_webapi
 This is a basic web API for accessing country codes relevant to various supply chain routes throughout North America.
 
 This project was developed using Python and incorporating flask, a lightweight web framework built on top of the Python language.
