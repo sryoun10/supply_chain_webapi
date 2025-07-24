@@ -16,6 +16,9 @@ MEX = [{'destination': "MEX",
 BLZ = [{'destination': "BLZ",
         'list': ["USA", "MEX", "BLZ"]}]
 
+SLV = [{'destination': "SLV",
+        'list': ["USA", "MEX", "GTM", "SLV"]}]
+
 GTM = [{'destination': "GTM",
         'list': ["USA", "MEX", "GTM"]}]
 
@@ -55,6 +58,11 @@ def toMEX():
 @app.route("/BLZ",methods=['GET'])
 def toBLZ():
     return jsonify({'BLZ':BLZ})
+
+
+@app.route("/SLV",methods=['GET'])
+def toSLV():
+    return jsonify({'SLV':SLV})
 
 
 @app.route("/GTM",methods=['GET'])
