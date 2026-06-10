@@ -1,9 +1,15 @@
 # supply_chain_webapi
-This is a basic web API for accessing country codes relevant to various supply chain routes throughout North America.
+This project provides a lightweight Flask API that models routing logic
+for North American supply-chain paths. It exposes structured JSON endpoints
+that can be used to simulate cross-border dataflow, compliance scenarios,
+and control-validation workflows.
 
-This project was developed using Python and incorporating flask, a lightweight web framework built on top of the Python language.
+Built with Python and Flask to illustrate how simple, well-structured APIs
+can support governance automation and evidence generation.
 
-To access relevant countries for a particular supply chain route in North America, please add '/' to the end of the url and then the three-letter country code, such as PAN for Panama.
+To access relevant countries for a particular supply chain route in North
+America, please add '/' to the end of the url and then the three-letter
+country code, such as PAN for Panama.
 
 ## File Structure
 ```
